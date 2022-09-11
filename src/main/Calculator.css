@@ -1,6 +1,6 @@
 .calculator {
-    height: 320px;
-    width: 235px;
+    height: 330px;
+    width: 245px;
     border-radius: 5px;
     overflow: hidden;
 
@@ -8,4 +8,5 @@
     grid-template-columns: repeat(4, 25%);
     grid-template-rows: 1fr 48px 48px 48px 48px 48px ;
 
+    border:solid 2px black
 }

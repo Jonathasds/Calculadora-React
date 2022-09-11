@@ -18,5 +18,31 @@ body{
 
   color: #fff;
   
-  background: linear-gradient(to right,#365b80, #b9322b );
+  background: linear-gradient(to right,#63676b, #181010 );
 }
+
+div h1 {
+  color: black;
+  margin-bottom: 30px;
+  font-size: 2.4em;
+}
+
+div h1::after{
+  content: ' ';
+  border: solid 1px white;
+  display: block;
+  width: 190px;
+  margin: auto;
+}
+
+div h1::before{
+  content: ' React';
+  color:white ;
+  position: relative;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+}
+  
+  
+ 
